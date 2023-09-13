@@ -4,7 +4,7 @@ pipeline {
     stage('Git Checkout') {
       steps {
         git branch: 'main', 
-            url: 'https://github.com/Honeyoceanmtech/wallpaper_autobuild.git',
+            url: 'git@github.com:Honeyoceanmtech/wallpaper_autobuild.git',
             changelog: true
       }
     }
