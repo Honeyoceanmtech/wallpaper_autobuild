@@ -15,7 +15,7 @@ def one():
 @app.route('/two', methods=['GET'])
 def two():
     values = [
-        {'category_name':"Hello two, Wallpaper Build try",'img_url':"22222222222222"}
+        {'category_name':"Hello two, Wallpaper Build try",'img_url':"honey"}
     ]
     return jsonify(values)
 
