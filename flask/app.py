@@ -8,14 +8,14 @@ CORS(app)
 @app.route('/one', methods=['GET'])
 def one():
     values = [
-        {'category_name':"Hello, one",'img_url':"milan"}
+        {'category_name':"Hello, one",'img_url':"milan123"}
     ]
     return jsonify(values)
 
 @app.route('/two', methods=['GET'])
 def two():
     values = [
-        {'category_name':"Hello two, Wallpaper Build try",'img_url':"honey"}
+        {'category_name':"Hello two, Wallpaper Build try",'img_url':"honey123"}
     ]
     return jsonify(values)
 
