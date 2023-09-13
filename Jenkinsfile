@@ -5,8 +5,7 @@ pipeline {
       steps {
         git branch: 'main', 
             url: 'https://github.com/Honeyoceanmtech/wallpaper_autobuild.git',
-            changelog: true,
-            poll: true
+            changelog: true
       }
     }
     stage('Deploy')
