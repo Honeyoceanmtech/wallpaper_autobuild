@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Git Checkout') {
       steps {
-        git branch: 'main', url: 'https://github.com/Honeyoceanmtech/wallpaper_build.git'
+        git branch: 'main', url: 'https://github.com/Honeyoceanmtech/wallpaper_autobuild.git'
       }
     }
     stage('Deploy')
