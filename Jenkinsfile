@@ -13,7 +13,7 @@ pipeline {
     {
       steps {
         echo "deploying wallpaper_build"
-        sh "docker-compose up"
+        sh "docker-compose up -d"
       }
     }
   }
